@@ -61,7 +61,6 @@ body {
   line-height: 1.5;
   color: #555555;
   text-align: left;
-  background-color: #FFFBF2;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9265,7 +9264,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #DA9F5B !important;
+  color: #5CA162 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9529,7 +9528,11 @@ h6,
   padding-right: 15px;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #FFFBF2;
+  color: #defff9;
+  text-shadow: 0 0 39px #FFF2,
+        0 0 3px #FFF2,
+        0 0 3px #FFF2,
+        0 0 5px #FFF2;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -9562,8 +9565,19 @@ h6,
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(51, 33, 29, 0.7);
+  background: rgba(16, 79, 31, 0.3);
   z-index: 1;
+}
+
+.log-button {
+  width: 10rem;
+  box-shadow: 0 0 9px #0503,
+  0 0 9px #0503,
+  0 0 9px #0503,
+  0 0 12px #0503;
+  text-align: center;
+  border-radius: 0.7rem;
+  background: radial-gradient(circle, rgba(48,181,26,1) 0%, rgba(61,148,65,1) 100%);
 }
 
 .section-title {
@@ -9593,7 +9607,7 @@ h6,
   justify-content: center;
   border-radius: 45px;
   color: #33211D;
-  background: #DA9F5B;
+  background: #5CA162;
 }
 
 .menu-price {
