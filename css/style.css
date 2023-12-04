@@ -9661,7 +9661,6 @@ h6,
 }
 
 .reservation,
-.page-header,
 .offer,
 .footer {
   background: linear-gradient(rgba(51, 33, 29, 0.85), rgba(51, 33, 29, 0.85)), url(../img/bg.jpg);
@@ -9669,3 +9668,9 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.page-header
+{background:linear-gradient(rgba(51,33,29,0.7), rgba(51,33,29,0.7)),url(../img/pilotos.jpeg);
+  background-position:top;
+  background-repeat:no-repeat;
+  background-size:cover}
