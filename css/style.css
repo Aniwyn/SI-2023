@@ -9709,3 +9709,16 @@ h6,
  .turism-text {
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
  }
+
+ .img-circuit {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+ }
+
+ .icon-circuit {
+  color: #5ca162;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  padding-right: 2rem;
+ }
