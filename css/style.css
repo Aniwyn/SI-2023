@@ -9722,3 +9722,27 @@ h6,
   margin-bottom: 3rem;
   padding-right: 2rem;
  }
+
+ .circuit-enviroment {
+  background-image: url(../img/ambiental.jpg);
+  background-size: cover;
+ }
+
+ .button-swich {
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 1rem;
+ }
+
+ .arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+ }
+
+ .rules-links {
+  color: #007bff;
+  text-decoration: underline;
+ }
