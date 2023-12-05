@@ -9676,7 +9676,7 @@ h6,
   background-size:cover}
 
 .page-turismo
- {background:linear-gradient(rgba(51,33,29,0.7), rgba(51,33,29,0.7)),url(../img/turismo.jpg);
+ {background:linear-gradient(rgba(51,33,29,0.1), rgba(51,33,29,0.3)),url(../img/banner-turismo.jpeg);
   background-position:top;
   background-repeat:no-repeat;
   background-size:cover}
@@ -9693,3 +9693,19 @@ h6,
  background-repeat:no-repeat;
  background-size:cover}
    
+ .turism-banner {
+  min-height: 700px;
+  padding-left: 15%;
+ }
+
+.turism-banner .img-turismo {
+  width: 30%;
+  position: absolute;
+  transform: rotate(-25deg);
+  top: 220px;
+  left: 80px;
+}
+
+ .turism-text {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+ }
