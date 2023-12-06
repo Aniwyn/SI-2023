@@ -9746,3 +9746,8 @@ h6,
   color: #007bff;
   text-decoration: underline;
  }
+
+#contador {
+  font-weight: 800;
+  font-size: 3rem;
+}
